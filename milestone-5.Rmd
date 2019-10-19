@@ -1,0 +1,28 @@
+---
+title: "Milestone 5"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+About:
+
+I am a current junior at Harvard college studying psychology with a secondary in molecular and cellular biology. Outside of classes, one of my favorite things to do is to play soccer, watch soccer games, and play fifa. Thus, the scope of this project came very naturally. I asked myself, what is something that I would enjoy researching and might lend interesting results. I decided to combine my passion for FIFA and watching soccer to compare the validity of the player ratings in the game. Being from a country with a population of three million that consistently produces world class soccer players, I also had a personal motivation if there is any form of inherent bias in the player ratings in the game, either due to sponsorship contracts or the geographical distribution. of the video game's marketbase
+
+Research Question:
+
+FIFA is the most popular soccer video game on the market, with around 20 million copies of FIFA 19 sold in 2019. With such a widely played videogame, you would expect the ratings to be relatively unbiased and reflect the true abilites of players in real life. Nevertheless, how accurate are fifa ratings? Do they represent what players are the best in the year, or are they also a popularity contest among players? Are they a fair, or do they overrate players who have sponsorships with the game? Lastly, is there any sort of quantifiable bias for European players in the game? This project will compare FIFA 19 data with player performance in 2018 to tackle these questions and more.
+
+
+Data quantification
+
+The FIFA 19 data is taken from a very popular kaggle databse (link). The real life rankings and statistics were inputted manually from soccer databases (links) 
+
+
+Data visualization:
+The results of this project will be shown in many different ways. The first part of the project explores FIFA ratings in general, with violin plots, bar plots, and histograms showing different characteristics of top rated teams. This is mainly an exploration of the rich data of the game and meant to be a fun thing to observe at leisure. The next few segments of this project are geared to my research questionof: Are FIFA 19 ratings biased and if so, how? A scatterplot will show the player ratings of the 25 best players in 2018 (quantified through the Balon d'Or rankings). A trend line will be created, and dot color will represent different key statistics (such as if a player has a sponsorship contract with FIFA or is from one of the top selling countries of the game). Still, since it is hard to prove that Balon d'Or rankings are not biased in an of themselves (link of article about Balon D'or being a popularity contest), the next part of the project will compare player ratings against their in real life stats. For each postion, the most important statistics in the 2018 were collected and compared to first the player rating, and then the ways in which FIFA tries to quanify this statistic. This will happen for all positions, but a simple way to look at this is by analyzing strikers. Strikers are tasked with scoring against the other team. Thus the most important statistic to look at for them is goals, and arugably assists. Thus the number of goals and goals per gamein real life for strikers will be plotted against their in game total ratings. To look at this further, their goal statistic will also be compared against their in game shooting skill rating. Hopefully this project will shed light on some of the bias that goes into the creation of a multimillion dollar game like FIFA.
+
+Contact:
+If you have any questions about the project, want to make any suggestions for future work, or simply want to talk about the findings, please email me at diego_arias@college.harvard.edu
